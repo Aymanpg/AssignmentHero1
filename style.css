@@ -64,9 +64,18 @@ body {
   text-decoration: none;
   font-size: 16px;
 }
-
-
-
+.btn1 {
+  background: #30B868;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 16px;
+}
+.btn1:hover {
+   color: #28a745 ;
+  background: #fff;
+}
 
 .hero {
   background: url('assets/hero-bg.png') center/cover no-repeat;
@@ -83,6 +92,10 @@ body {
   border-radius: 20px;
   font-size: 16px;
   margin: 20px;
+}
+.badge:hover {
+    background-color:#30B868;
+    color: #FFFFFF;
 }
 
 .hero h1 {
@@ -189,10 +202,17 @@ body {
   font-weight: bold;
 }
 
-.solution-text p,
+.solution-text p {
+  font-size: 16px;
+  color: #627382;
+  margin: 20px 0;
+}
+
 .solution-text ul {
-  font-size: 14px;
-  color: #475569;
+ 
+  list-style-type: disc;
+  font-size: 16px;
+  color: #001931;
 }
 
 
@@ -209,8 +229,13 @@ body {
 
 }
 
-.cta p,
+.cta p {
+  font-size: 16px;
+  color: #64748b;
+  margin-bottom: 20px;
+}
 .cta small {
+    font-size: 16px;
   color: #64748b;
 }
 
